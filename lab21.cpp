@@ -1,4 +1,4 @@
-// Please include header (lab21.h) here.
+#include "lab21.h"
 
 int main(){
 	srand(time(0));
@@ -8,6 +8,7 @@ int main(){
 	int turn_count = 1;
 	char player_action = '\0',monster_action = '\0';
 	int p = 0, m = 0;
+	
 	while(true){
 		mons.newTurn();	
 		hero.newTurn();			
